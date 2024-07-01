@@ -1,0 +1,10 @@
+# flake build result
+result
+
+# temp files
+*~
+*.swp
+*.swo
+
+# development specific
+/.direnv
