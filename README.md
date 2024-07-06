@@ -14,12 +14,12 @@ cd nixos-custom-iso-examples
 
 Запускаем nix-shell/dev-shell в котором будет доступна команда `just`:
 ```
-$ nix-shell # или nix develop
+nix-shell # или nix develop
 ```
 
 Выводим список доступных вариантов:
 ```
-$ just --list
+just --list
 ```
 ```
 Available recipes:
@@ -60,7 +60,10 @@ just build-02-simple-live-flaked
 
 Результат будет доступен в `./result/iso`:
 ```
-ls
+ls result/iso
+```
+```
+nixos-24.05.20240630.7dca152-x86_64-linux.iso
 ```
 
 ## Как сделать тоже самое без just?
